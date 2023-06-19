@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+       
+        <script src="https://static.sketchfab.com/api/sketchfab-viewer-1.0.0.js"></script>
+
+        <script src="leatherColor.js"></script>
+       
+
+        <meta charset="utf-8"/>
+       
+        <meta name="permissions-policy" content="gyroscope=(), accelerometer=(), magnetometer=(), sensor=(), xr-spatial-tracking=()">
+<meta name="permissions-policy" content="gyroscope=(), accelerometer=(), magnetometer=(), sensor=(), xr-spatial-tracking=()"/>
+
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+        <title>Supplied and fitted premium custom made tailored seat covers</title>
+        <link rel="stylesheet" href="https://unpkg.com/tailwindcss@2.0.2/dist/tailwind.min.css"/>
+        <meta name="description" content="Seatcovers"/>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    </head>
+    <body>
+        <header class="bg-gray-900"> 
+            <div class="container mx-auto px-4"> 
+                <div class="flex flex-wrap -mx-4 md:justify-between justify-center items-center py-2"> 
+                    <div class="flex-wrap inline-flex px-4 py-1 space-x-1"> <a href="#" class="p-2 text-white border-white hover:bg-white  hover:text-blue-600 border rounded-full" aria-label="facebook link"> <svg viewBox="0 0 24 24" fill="currentColor" class="h-4 w-4"> 
+                                <path d="M14 13.5h2.5l1-4H14v-2c0-1.03 0-2 2-2h1.5V2.14c-.326-.043-1.557-.14-2.857-.14C11.928 2 10 3.657 10 6.7v2.8H7v4h3V22h4v-8.5z"></path>                                 
+                            </svg></a> <a href="#" class="p-2 text-white border-white hover:bg-white  hover:text-blue-600 border rounded-full" aria-label="twitter link"> <svg viewBox="0 0 24 24" fill="currentColor" class="h-4 w-4"> 
+                                <path d="M22.162 5.656a8.384 8.384 0 0 1-2.402.658A4.196 4.196 0 0 0 21.6 4c-.82.488-1.719.83-2.656 1.015a4.182 4.182 0 0 0-7.126 3.814 11.874 11.874 0 0 1-8.62-4.37 4.168 4.168 0 0 0-.566 2.103c0 1.45.738 2.731 1.86 3.481a4.168 4.168 0 0 1-1.894-.523v.052a4.185 4.185 0 0 0 3.355 4.101 4.21 4.21 0 0 1-1.89.072A4.185 4.185 0 0 0 7.97 16.65a8.394 8.394 0 0 1-6.191 1.732 11.83 11.83 0 0 0 6.41 1.88c7.693 0 11.9-6.373 11.9-11.9 0-.18-.005-.362-.013-.54a8.496 8.496 0 0 0 2.087-2.165z"></path>                                 
+                            </svg></a> <a href="#" class="p-2 text-white border-white hover:bg-white  hover:text-blue-600 border rounded-full" aria-label="instagram link"> <svg viewBox="0 0 24 24" fill="currentColor" class="h-4 w-4"> 
+                                <path d="M12 2c2.717 0 3.056.01 4.122.06 1.065.05 1.79.217 2.428.465.66.254 1.216.598 1.772 1.153a4.908 4.908 0 0 1 1.153 1.772c.247.637.415 1.363.465 2.428.047 1.066.06 1.405.06 4.122 0 2.717-.01 3.056-.06 4.122-.05 1.065-.218 1.79-.465 2.428a4.883 4.883 0 0 1-1.153 1.772 4.915 4.915 0 0 1-1.772 1.153c-.637.247-1.363.415-2.428.465-1.066.047-1.405.06-4.122.06-2.717 0-3.056-.01-4.122-.06-1.065-.05-1.79-.218-2.428-.465a4.89 4.89 0 0 1-1.772-1.153 4.904 4.904 0 0 1-1.153-1.772c-.248-.637-.415-1.363-.465-2.428C2.013 15.056 2 14.717 2 12c0-2.717.01-3.056.06-4.122.05-1.066.217-1.79.465-2.428a4.88 4.88 0 0 1 1.153-1.772A4.897 4.897 0 0 1 5.45 2.525c.638-.248 1.362-.415 2.428-.465C8.944 2.013 9.283 2 12 2zm0 5a5 5 0 1 0 0 10 5 5 0 0 0 0-10zm6.5-.25a1.25 1.25 0 0 0-2.5 0 1.25 1.25 0 0 0 2.5 0zM12 9a3 3 0 1 1 0 6 3 3 0 0 1 0-6z"></path>                                 
+                            </svg></a> <a href="#" class="p-2 text-white border-white hover:bg-white  hover:text-blue-600 border rounded-full" aria-label="linkedin link"> <svg viewBox="0 0 24 24" fill="currentColor" class="h-4 w-4"> 
+                                <path d="M6.94 5a2 2 0 1 1-4-.002 2 2 0 0 1 4 .002zM7 8.48H3V21h4V8.48zm6.32 0H9.34V21h3.94v-6.57c0-3.66 4.77-4 4.77 0V21H22v-7.93c0-6.17-7.06-5.94-8.72-2.91l.04-1.68z"></path>                                 
+                            </svg></a> <a href="#" class="p-2 text-white border-white hover:bg-white  hover:text-blue-600 border rounded-full" aria-label="youtube link"> <svg viewBox="0 0 24 24" fill="currentColor" class="h-4 w-4"> 
+                                <path d="M21.543 6.498C22 8.28 22 12 22 12s0 3.72-.457 5.502c-.254.985-.997 1.76-1.938 2.022C17.896 20 12 20 12 20s-5.893 0-7.605-.476c-.945-.266-1.687-1.04-1.938-2.022C2 15.72 2 12 2 12s0-3.72.457-5.502c.254-.985.997-1.76 1.938-2.022C6.107 4 12 4 12 4s5.896 0 7.605.476c.945.266 1.687 1.04 1.938 2.022zM10 15.5l6-3.5-6-3.5v7z"></path>                                 
+                            </svg></a> 
+                    </div>                     
+                    <div class="flex-wrap inline-flex px-4 py-1 space-x-1 md:space-x-4"> <a href="#" class="group hover:text-gray-300 inline-flex items-center text-sm text-white"> <span class="border border-white group-hover:bg-white group-hover:text-blue-600 p-2 rounded-full text-white md:mr-2"> <svg viewBox="0 0 24 24" fill="currentColor" class="h-4 w-4"> 
+                                    <path d="M21 16.42v3.536a1 1 0 0 1-.93.998c-.437.03-.794.046-1.07.046-8.837 0-16-7.163-16-16 0-.276.015-.633.046-1.07A1 1 0 0 1 4.044 3H7.58a.5.5 0 0 1 .498.45c.023.23.044.413.064.552A13.901 13.901 0 0 0 9.35 8.003c.095.2.033.439-.147.567l-2.158 1.542a13.047 13.047 0 0 0 6.844 6.844l1.54-2.154a.462.462 0 0 1 .573-.149 13.901 13.901 0 0 0 4 1.205c.139.02.322.042.55.064a.5.5 0 0 1 .449.498z"></path>                                     
+                                </svg></span> <span class="hidden md:block">+353 86 365 4615</span> </a> <a href="#" class="group hover:text-gray-300 inline-flex items-center text-sm text-white"> <span class="border border-white group-hover:bg-white group-hover:text-blue-600 p-2 rounded-full text-white md:mr-2"> <svg viewBox="0 0 24 24" fill="currentColor" class="h-4 w-4"> 
+                                    <path d="M3 3h18a1 1 0 0 1 1 1v16a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1zm9.06 8.683L5.648 6.238 4.353 7.762l7.72 6.555 7.581-6.56-1.308-1.513-6.285 5.439z"></path>                                     
+                                </svg></span> <span class="hidden md:block">info@leatherseatcovers.ie</span> </a> 
+                    </div>                     
+                </div>                 
+                <hr class="border-gray-400 border-opacity-25 mx-auto w-full"/> 
+            </div>             
+            <nav class="bg-gray-500 flex flex-wrap items-center mx-auto pl-32 pr-4 py-8 text-center"> <a href="index.html"><img src="img/logonew.png" width="206" class="pr-3"/></a> 
+                <button class="hover:text-gray-800 px-3 py-2 rounded text-white lg:hidden" data-name="nav-toggler" data-pg-ia='{"l":[{"name":"NabMenuToggler","trg":"click","a":{"l":[{"t":"^nav|[data-name=nav-menu]","l":[{"t":"set","p":0,"d":0,"l":{"class.remove":"hidden"}}]},{"t":"#gt# span:nth-of-type(1)","l":[{"t":"tween","p":0,"d":0.2,"l":{"rotationZ":45,"yPercent":300}}]},{"t":"#gt# span:nth-of-type(2)","l":[{"t":"tween","p":0,"d":0.2,"l":{"autoAlpha":0}}]},{"t":"#gt# span:nth-of-type(3)","l":[{"t":"tween","p":0,"d":0.2,"l":{"rotationZ":-45,"yPercent":-300}}]}]},"pdef":"true","trev":"true"}]}'> <span class="block border-b-2 border-current my-1 w-6"></span> <span class="block border-b-2 border-current my-1 w-6"></span> <span class="block border-b-2 border-current my-1 w-6"></span> 
+                </button>                 
+                <div class="hidden space-y-2 text-sm w-full lg:flex lg:items-center lg:space-x-4 lg:space-y-0 lg:w-auto" data-name="nav-menu"> 
+                    <div class="flex flex-col lg:flex-row"> <a href="index.html" class="font-light hover:text-gray-300 lg:px-4 px-0 py-2 text-white uppercase">Home</a> <a href="#" class="font-light lg:px-4 uppercase py-2 px-0  text-white hover:text-gray-300">PRODUCTS</a>
+                        <a href="configurator.html" class="font-light lg:px-4 uppercase py-2 px-0  text-white hover:text-gray-300">CONFIGURATOR</a>
+                        <a href="aboutus.html" class="font-light lg:px-4 uppercase py-2 px-0  text-white hover:text-gray-300">ABOUT US</a> <a href="gallery.html" class="font-light lg:px-4 uppercase py-2 px-0  text-white hover:text-gray-300">GALLERY</a> <a href="colors.html" class="font-light lg:px-4 uppercase py-2 px-0  text-white hover:text-gray-300">COLORS</a>
+                        <a href="models.html" class="font-light lg:px-4 uppercase py-2 px-0  text-white hover:text-gray-300">Models</a>
+                        <a href="customseatcovers.html" class="font-light lg:px-4 uppercase py-2 px-0  text-white hover:text-gray-300">custom seat covers</a> <a href="contact.html" class="font-light lg:px-4 uppercase py-2 px-0  text-white hover:text-gray-300">Contact</a>
+                    </div>                     
+                </div>                 
+            </nav>
+            <section class="bg-gray-900 py-10 text-white">
+                <div>
+                    <h1 class="py-8 text-2xl text-center uppercase">Information</h1>
+                </div>
+                <div>
+                    <p class="px-8 text-center">Dear customers,
+We would like to inform you that the seat configurator available on our website is intended for visual purposes only. </p>
+                    <p class="px-8 text-center">Please note that the images provided are for reference only and may not accurately depict the final product.</p>
+                    <p class="px-8 text-justify"></p>
+                    <p class="px-8 text-justify"></p>
+                    <p class="pt-8 px-8 text-center">While we strive to provide the most accurate representation possible, there may be slight variations in color, texture, and overall appearance between the online configurator and the actual product.</p>
+                    <p class="pt-0 px-8 text-center">We encourage you to use the configurator as a guide to help you visualize the potential appearance of your desired seat options. </p>
+                    <p class="pt-0 px-8 text-center">However, we highly recommend that you refer to the photo gallery section of our website for actual photographs of our seats installed in specific vehicle models.</p>
+                    <p class="pt-8 px-8 text-center">Thank you for choosing our products, and we hope this information helps you make an informed decision.</p>
+                </div>
+            </section>             
+        </header>
+        <div class="bg-gray-900 relative">
+            <div class="sketchfab-embed-wrapper"> 
+</div>
+            <div class="container mx-auto pt-0 px-4"> 
+                <div class="flex flex-wrap -mx-4"> 
+                    <div class="px-4 w-full lg:w-6/12/12">
+                        <iframe id="api-frame" title="pierwszy model" frameborder="0" allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" allow="autoplay; fullscreen; xr-spatial-tracking" xr-spatial-tracking execution-while-out-of-viewport execution-while-not-rendered web-share width="996" height="680" src="https://sketchfab.com/3d-models/seat-covers-test-aad2026933fe472b9a122a352b713a12/embed" class="container inline-block"> </iframe>
+                     
+                    </div>
+                </div>
+            </div>
+            <section class="bg-gray-900 py-24 text-center text-gray-500"> 
+                <div class="container mx-auto px-4 relative"> 
+                    <div class="container inline-block mx-auto p-2 w-full lg:w-12/12"> 
+                        <form id="configurator-form" class="flex flex-col md:flex-row justify-between items-center">
+                            <div class="flex flex-col w-full md:w-1/2 px-2 mb-4 md:mb-0">
+                                <label for="material-select">Material:</label>
+                                <select id="material-select" name="material" class="border border-gray-400 rounded px-3 py-2">
+                                    <option value="leather">Leather</option>
+                                    <option value="synthetic">Synthetic Leather</option>
+                                    <option value="cloth">Cloth</option>
+                                </select>
+                            </div>
+                           
+                            <div id="element-color-select" class="flex flex-col w-full md:w-1/2 px-2 mb-4 md:mb-0">
+                                <label for="element-color">Colors:</label>
+                                <button id="red" class="bg-red-500 hover:bg-red-700 text-white font-bold py-2 px-4 rounded mb-2">Red</button>
+                                <button id="green" class="bg-green-500 hover:bg-green-700 text-white font-bold py-2 px-4 rounded mb-2">Green</button>
+                                <button id="blue" class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded mb-2">Blue</button>
+                                <button id="yellow" class="bg-yellow-500 hover:bg-yellow-700 text-white font-bold py-2 px-4 rounded mb-2">Yellow</button>
+                                <button id="purple" class="bg-purple-500 hover:bg-purple-700 text-white font-bold py-2 px-4 rounded mb-2">Purple</button>
+                                <button id="pink" class="bg-pink-500 hover:bg-pink-700 text-white font-bold py-2 px-4 rounded mb-2">Pink</button>
+                                <button id="indigo" class="bg-indigo-500 hover:bg-indigo-700 text-white font-bold py-2 px-4 rounded mb-2">Indigo</button>
+                                <button id="gray" class="bg-gray-500 hover:bg-gray-700 text-white font-bold py-2 px-4 rounded mb-2">Gray</button>
+                                <button id="black" class="bg-black hover:bg-gray-900 text-white font-bold py-2 px-4 rounded mb-2">Black</button>
+                            </div>
+                            
+                            
+                            
+                            <div class="flex flex-col w-full md:w-1/2 px-2 mb-4 md:mb-0">
+                                <label for="seats-input">Seats:</label>
+                                <input id="seats-input" name="seats" type="number" class="border border-gray-400 rounded px-3 py-2">
+                            </div>
+                            <div class="flex flex-col w-full md:w-1/2 px-2 mb-4 md:mb-0">
+                                <label for="pattern-select">Pattern:</label>
+                                <select id="pattern-select" name="pattern" class="border border-gray-400 rounded px-3 py-2">
+                                    <option value="None">None</option>
+                                    <option value="Diamond Stitching">Diamond Stitching</option>
+                                    <option value="Cross Stitching">Cross Stitching</option>
+                                    <option value="Vertical Stitching">Vertical Stitching</option>
+                                    <option value="Horizontal Stitching">Horizontal Stitching</option>
+                                </select>
+                            </div>
+                            <div class="flex flex-col w-full md:w-1/2 px-2 mb-4 md:mb-0">
+                                <label for="stitching-select">Stitching:</label>
+                                <select id="stitching-select" name="stitching" class="border border-gray-400 rounded px-3 py-2">
+                                    <option value="Single Needle">Single Needle</option>
+                                    <option value="Double Needle">Double Needle</option>
+                                </select>
+                            </div>
+                            <div class="flex flex-col w-full md:w-1/2 px-2 mb-4 md:mb-0">
+                                <label for="stitching-color-select">Stitching Color:</label>
+                                <select id="stitching-color-select" name="stitching-color" class="border border-gray-400 rounded px-3 py-2">
+                                    <option value="Black">Black</option>
+                                    <option value="Red">Red</option>
+                                    <option value="White">White</option>
+                                    <option value="Gray">Gray</option>
+                                    <option value="Brown">Brown</option>
+                                </select>
+                            </div>
+                        </form>
+                        <div class="flex w-full justify-center mt-4">
+                            <button type="submit" class="bg-gray-700 focus:outline-none focus:shadow-outline font-light hover:bg-blue-700 mt-7 px-4 py-2 rounded text-white">Submit</button>
+                        </div>
+                    </div>
+                </div>                 
+            </section>
+            <footer class="bg-gray-600 font-light pt-12 text-white"> 
+                <div class="container mx-auto px-4"> 
+                    <div class="flex flex-wrap -mx-4"> 
+                        <div class="w-full p-4  xl:mr-auto xl:w-4/12"> 
+                            <img src="img/logonew.png" width="279"/> 
+                            <p class="mb-4 mt-5 text-sm">                             Duis pharetra venenatis felis, ut tincidunt ipsum consequat nec. Fusce et porttitor libero, eu aliquam nisi. Nam finibus ullamcorper semper. </p> 
+                            <div class="mb-6"> <a href="#" class="hover:text-blue-400">+353 86 365 4615</a> <br/> <a href="#" class="hover:text-blue-400">info@leatherseatcovers.ie</a> 
+                            </div>                             
+                            <div class="flex-wrap inline-flex space-x-3"> <a href="#" class="hover:text-blue-400" aria-label="facebook link"> <svg viewBox="0 0 24 24" fill="currentColor" class="h-5 w-5"> 
+                                        <path d="M14 13.5h2.5l1-4H14v-2c0-1.03 0-2 2-2h1.5V2.14c-.326-.043-1.557-.14-2.857-.14C11.928 2 10 3.657 10 6.7v2.8H7v4h3V22h4v-8.5z"/> 
+                                    </svg></a> <a href="#" class="hover:text-blue-400" aria-label="twitter link"> <svg viewBox="0 0 24 24" fill="currentColor" class="h-5 w-5"> 
+                                        <path d="M22.162 5.656a8.384 8.384 0 0 1-2.402.658A4.196 4.196 0 0 0 21.6 4c-.82.488-1.719.83-2.656 1.015a4.182 4.182 0 0 0-7.126 3.814 11.874 11.874 0 0 1-8.62-4.37 4.168 4.168 0 0 0-.566 2.103c0 1.45.738 2.731 1.86 3.481a4.168 4.168 0 0 1-1.894-.523v.052a4.185 4.185 0 0 0 3.355 4.101 4.21 4.21 0 0 1-1.89.072A4.185 4.185 0 0 0 7.97 16.65a8.394 8.394 0 0 1-6.191 1.732 11.83 11.83 0 0 0 6.41 1.88c7.693 0 11.9-6.373 11.9-11.9 0-.18-.005-.362-.013-.54a8.496 8.496 0 0 0 2.087-2.165z"/> 
+                                    </svg></a> <a href="#" class="hover:text-blue-400" aria-label="instagram link"> <svg viewBox="0 0 24 24" fill="currentColor" class="h-5 w-5"> 
+                                        <path d="M12 2c2.717 0 3.056.01 4.122.06 1.065.05 1.79.217 2.428.465.66.254 1.216.598 1.772 1.153a4.908 4.908 0 0 1 1.153 1.772c.247.637.415 1.363.465 2.428.047 1.066.06 1.405.06 4.122 0 2.717-.01 3.056-.06 4.122-.05 1.065-.218 1.79-.465 2.428a4.883 4.883 0 0 1-1.153 1.772 4.915 4.915 0 0 1-1.772 1.153c-.637.247-1.363.415-2.428.465-1.066.047-1.405.06-4.122.06-2.717 0-3.056-.01-4.122-.06-1.065-.05-1.79-.218-2.428-.465a4.89 4.89 0 0 1-1.772-1.153 4.904 4.904 0 0 1-1.153-1.772c-.248-.637-.415-1.363-.465-2.428C2.013 15.056 2 14.717 2 12c0-2.717.01-3.056.06-4.122.05-1.066.217-1.79.465-2.428a4.88 4.88 0 0 1 1.153-1.772A4.897 4.897 0 0 1 5.45 2.525c.638-.248 1.362-.415 2.428-.465C8.944 2.013 9.283 2 12 2zm0 5a5 5 0 1 0 0 10 5 5 0 0 0 0-10zm6.5-.25a1.25 1.25 0 0 0-2.5 0 1.25 1.25 0 0 0 2.5 0zM12 9a3 3 0 1 1 0 6 3 3 0 0 1 0-6z"/> 
+                                    </svg></a> <a href="#" class="hover:text-blue-400" aria-label="linkedin link"> <svg viewBox="0 0 24 24" fill="currentColor" class="h-5 w-5"> 
+                                        <path d="M6.94 5a2 2 0 1 1-4-.002 2 2 0 0 1 4 .002zM7 8.48H3V21h4V8.48zm6.32 0H9.34V21h3.94v-6.57c0-3.66 4.77-4 4.77 0V21H22v-7.93c0-6.17-7.06-5.94-8.72-2.91l.04-1.68z"/> 
+                                    </svg></a> <a href="#" class="hover:text-blue-400" aria-label="youtube link"> <svg viewBox="0 0 24 24" fill="currentColor" class="h-5 w-5"> 
+                                        <path d="M21.543 6.498C22 8.28 22 12 22 12s0 3.72-.457 5.502c-.254.985-.997 1.76-1.938 2.022C17.896 20 12 20 12 20s-5.893 0-7.605-.476c-.945-.266-1.687-1.04-1.938-2.022C2 15.72 2 12 2 12s0-3.72.457-5.502c.254-.985.997-1.76 1.938-2.022C6.107 4 12 4 12 4s5.896 0 7.605.476c.945.266 1.687 1.04 1.938 2.022zM10 15.5l6-3.5-6-3.5v7z"/> 
+                                    </svg></a> 
+                            </div>                             
+                        </div>                         
+                        <div class="w-full p-4  xl:w-2/12 sm:w-4/12"> 
+                            <h2 class="font-bold font-serif mb-8 text-lg uppercase">                             About </h2> 
+                            <ul> 
+                                <li class="mb-4"> <a href="#" class="hover:text-blue-400">Get Quote</a> 
+                                </li>                                 
+                                <li class="mb-4"> <a href="#" class="hover:text-blue-400">Enterprise Plan</a> 
+                                </li>                                 
+                                <li class="mb-4"> 
+</li>                                 
+                                <li class="mb-4"> <a href="#" class="hover:text-blue-400">Our Portfolio</a> 
+                                </li>                                 
+                            </ul>                             
+                        </div>                         
+                        <div class="w-full p-4  xl:w-2/12 sm:w-4/12"> 
+                            <h2 class="font-bold font-serif mb-8 text-lg uppercase">                             Services </h2> 
+                            <ul> 
+                                <li class="mb-4"> <a href="#" class="hover:text-blue-400">Custom seat covers</a> 
+                                </li>                                 
+                                <li class="mb-4"> <a href="colors.html" class="hover:text-blue-400">Colors</a> 
+                                </li>                                 
+                                <li class="mb-4"> <a href="#" class="hover:text-blue-400">Informations</a> 
+                                </li>                                 
+                                <li class="mb-4"> 
+</li>                                 
+                                <li class="mb-4"> 
+</li>                                 
+                            </ul>                             
+                        </div>                         
+                        <div class="w-full p-4  xl:w-2/12 sm:w-4/12"> 
+                            <h2 class="font-bold font-serif mb-8 text-lg uppercase">                             Other </h2> 
+                            <ul> 
+                                <li class="mb-4"> <a href="faqs.html" class="hover:text-blue-400">FAQ's</a> 
+                                </li>                                 
+                                <li class="mb-4"> 
+</li>                                 
+                                <li class="mb-4"> 
+</li>                                 
+                                <li class="mb-4"> <a href="#" class="hover:text-blue-400">Refund Policy</a> 
+                                </li>                                 
+                                <li class="mb-4"> <a href="#" class="hover:text-blue-400">Terms of Service</a> 
+                                </li>                                 
+                            </ul>                             
+                        </div>                         
+                    </div>                     
+                    <div class="py-4 text-center"> 
+                        <hr class="mb-4 opacity-25"/> 
+                        <p class="text-sm">Copyright &copy; 2022 WEBSITEOK</p> 
+                    </div>                     
+                </div>                 
+            </footer>
+
+
+            
+          
+          
+
+         
+
+
+    
+        
+           
+
+
+            <!-- Następnie załaduj nasz plik JavaScript -->
+      
+            
+       
+
+            <script>
+                document.getElementById('red').addEventListener('click', function(event) {
+                event.preventDefault();
+                handleColorButtonClick('#ff0000');
+            });
+
+                document.getElementById('green').addEventListener('click', function(event) {
+                event.preventDefault();
+                handleColorButtonClick('#00ff00');
+            });
+            
+                document.getElementById('blue').addEventListener('click', function(event) {
+                    event.preventDefault();
+                    handleColorButtonClick('#0000ff'); 
+                });
+            
+                document.getElementById('yellow').addEventListener('click', function(event) {
+                    event.preventDefault();
+                    handleColorButtonClick('#ffff00'); 
+                });
+            
+                document.getElementById('purple').addEventListener('click', function(event) {
+                    event.preventDefault();
+                    handleColorButtonClick('#800080'); 
+                });
+            
+                document.getElementById('pink').addEventListener('click', function(event) {
+                    event.preventDefault();
+                    handleColorButtonClick('#ffc0cb'); // Ustawia kolor na różowy
+                });
+            
+                document.getElementById('indigo').addEventListener('click', function(event) {
+                    event.preventDefault();
+                    handleColorButtonClick('#4b0082'); // Ustawia kolor na indygo
+                });
+            
+                document.getElementById('gray').addEventListener('click', function(event) {
+                    event.preventDefault();
+                    handleColorButtonClick('#808080'); // Ustawia kolor na szary
+                });
+            
+                document.getElementById('black').addEventListener('click', function(event) {
+                    event.preventDefault();
+                    handleColorButtonClick('#000000'); // Ustawia kolor na czarny
+                });
+            </script>
+            
+            
+            
+            <script src="modelSwitcher.js"></script>
+
+
+      
+      
+            
+    </body>
+</html>
