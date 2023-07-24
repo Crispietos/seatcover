@@ -40,11 +40,7 @@
                 <button class="hover:text-gray-800 px-3 py-2 rounded text-white lg:hidden" data-name="nav-toggler" data-pg-ia='{"l":[{"name":"NabMenuToggler","trg":"click","a":{"l":[{"t":"^nav|[data-name=nav-menu]","l":[{"t":"set","p":0,"d":0,"l":{"class.remove":"hidden"}}]},{"t":"#gt# span:nth-of-type(1)","l":[{"t":"tween","p":0,"d":0.2,"l":{"rotationZ":45,"yPercent":300}}]},{"t":"#gt# span:nth-of-type(2)","l":[{"t":"tween","p":0,"d":0.2,"l":{"autoAlpha":0}}]},{"t":"#gt# span:nth-of-type(3)","l":[{"t":"tween","p":0,"d":0.2,"l":{"rotationZ":-45,"yPercent":-300}}]}]},"pdef":"true","trev":"true"}]}'> <span class="block border-b-2 border-current my-1 w-6"></span> <span class="block border-b-2 border-current my-1 w-6"></span> <span class="block border-b-2 border-current my-1 w-6"></span> 
                 </button>                 
                 <div class="hidden space-y-2 text-sm w-full lg:flex lg:items-center lg:space-x-4 lg:space-y-0 lg:w-auto" data-name="nav-menu"> 
-                    <div class="flex flex-col lg:flex-row"> <a href="index.html" class="font-light hover:text-gray-300 lg:px-4 px-0 py-2 text-white uppercase">Home</a> <a href="#" class="font-light lg:px-4 uppercase py-2 px-0  text-white hover:text-gray-300">PRODUCTS</a>
-                        <a href="configurator.html" class="font-light lg:px-4 uppercase py-2 px-0  text-white hover:text-gray-300">CONFIGURATOR</a>
-                        <a href="aboutus.html" class="font-light lg:px-4 uppercase py-2 px-0  text-white hover:text-gray-300">ABOUT US</a> <a href="gallery.html" class="font-light lg:px-4 uppercase py-2 px-0  text-white hover:text-gray-300">GALLERY</a> <a href="colors.html" class="font-light lg:px-4 uppercase py-2 px-0  text-white hover:text-gray-300">COLORS</a>
-                        <a href="models.html" class="font-light lg:px-4 uppercase py-2 px-0  text-white hover:text-gray-300">Models</a>
-                        <a href="customseatcovers.html" class="font-light lg:px-4 uppercase py-2 px-0  text-white hover:text-gray-300">custom seat covers</a> <a href="contact.html" class="font-light lg:px-4 uppercase py-2 px-0  text-white hover:text-gray-300">Contact</a>
+                    <div class="flex flex-col lg:flex-row"> <a href="index.html" class="font-light hover:text-gray-300 lg:px-4 px-0 py-2 text-white uppercase">Home</a> <a href="#" class="font-light lg:px-4 uppercase py-2 px-0  text-white hover:text-gray-300">PRODUCTS</a><a href="configurator.html" class="font-light lg:px-4 uppercase py-2 px-0  text-white hover:text-gray-300">CONFIGURATOR</a><a href="aboutus.html" class="font-light lg:px-4 uppercase py-2 px-0  text-white hover:text-gray-300">ABOUT US</a> <a href="gallery.html" class="font-light lg:px-4 uppercase py-2 px-0  text-white hover:text-gray-300">GALLERY</a> <a href="colors.html" class="font-light lg:px-4 uppercase py-2 px-0  text-white hover:text-gray-300">COLORS</a><a href="models.html" class="font-light lg:px-4 uppercase py-2 px-0  text-white hover:text-gray-300">Models</a><a href="customseatcovers.html" class="font-light lg:px-4 uppercase py-2 px-0  text-white hover:text-gray-300">custom seat covers</a> <a href="contact.html" class="font-light lg:px-4 uppercase py-2 px-0  text-white hover:text-gray-300">Contact</a>
                     </div>                     
                 </div>                 
             </nav>             
@@ -60,37 +56,43 @@
                     <div class="px-4 w-full lg:mt-14 lg:w-full">
                         <section class="bg-gray-900 pb-24 pt-0 text-center text-gray-500">
                             <div class="mx-auto px-4 relative lg:w-9/12">
-                                <div class="container inline-block lg:w-12/12 mx-auto p-2 w-full">
-                                    <form id="configurator-form" class="flex flex-row flex-wrap items-center justify-between">
-                                        <!-- Materiały -->
-                                        <div class="flex flex-col mb-4 px-2 w-1/2 md:mb-0 md:w-1/2">
-                                            <label for="material-select" class="font-light text-2xl text-white">Material:</label>
-                                            <select id="material-select" name="material" class="border border-gray-400 px-3 py-1 rounded w-full">
-                                                <option value="leather">Leather</option>
-                                                <option value="synthetic">Synthetic Leather</option>
-                                                <option value="cloth">Cloth</option>
-                                            </select>
-                                        </div>
-                                        <!-- Kolory -->
-                                        <div id="element-color-select" class="flex flex-col mb-4 md:mb-0 md:w-1/2 px-2 w-1/2">
-                                            <label for="element-color" class="font-light text-2xl text-white w-full">Color:</label>
-                                            <select id="element-color" class="border-t px-3 py-1 rounded w-full">
-                                                <option value="">Select a color</option>
-                                                <option value="black">Black</option>
-                                                <option value="beige">Beige</option>
-                                                <option value="blue">Blue</option>
-                                                <option value="brown">Brown</option>
-                                                <option value="cappuccino">Cappuccino</option>
-                                                <option value="green">Green</option>
-                                                <option value="gray">Grey</option>
-                                                <option value="navy">Navy</option>
-                                                <option value="red">Red</option>
-                                                <option value="silver">Silver</option>
-                                                <option value="wine">Wine</option>
-                                            </select>
-                                        </div>
-                                    </form>
-                                </div>
+                                <form id="configurator-form" class="flex flex-row flex-wrap justify-between">
+                                    <!-- Materiały -->
+                                    <div class="flex flex-col mb-4 px-2 w-full md:w-1/3">
+                                        <label for="material-select" class="font-light text-2xl text-white">Material:</label>
+                                        <select id="material-select" name="material" class="border border-gray-400 px-3 py-1 rounded w-full">
+                                            <option value="leather">Leather</option>
+                                            <option value="synthetic">Synthetic Leather</option>
+                                            <option value="cloth">Cloth</option>
+                                        </select>
+                                    </div>
+                                    <!-- Kolory -->
+                                    <div id="element-color-select" class="flex flex-col mb-4 md:w-1/3 px-2 w-full">
+                                        <label for="element-color" class="font-light text-2xl text-white w-full">Color:</label>
+                                        <select id="element-color" class="border-t px-3 py-1 rounded w-full">
+                                            <option value="">Select a color</option>
+                                            <option value="black">Black</option>
+                                            <option value="beige">Beige</option>
+                                            <option value="blue">Blue</option>
+                                            <option value="brown">Brown</option>
+                                            <option value="cappuccino">Cappuccino</option>
+                                            <option value="green">Green</option>
+                                            <option value="gray">Grey</option>
+                                            <option value="navy">Navy</option>
+                                            <option value="red">Red</option>
+                                            <option value="silver">Silver</option>
+                                            <option value="wine">Wine</option>
+                                        </select>
+                                    </div>
+                                    <!-- Podłokietniki -->
+                                    <div class="flex flex-col mb-4 md:w-1/3 px-2 w-full">
+                                        <label for="armrestSelect" class="font-light text-2xl text-white">Armrests:</label>
+                                        <select id="armrestSelect" class="border border-gray-400 px-3 py-1 rounded w-full">
+                                            <option value="show">Show Armrests</option>
+                                            <option value="hide">Hide Armrests</option>
+                                        </select>
+                                    </div>
+                                </form>
                                 <div>
                                     <p class="mb-2 py-0 text-base text-gray-200">You can change the color of the following items:</p>
                                 </div>
@@ -293,14 +295,12 @@
                                                 <!-- Obrazy kolorów będą dodawane tutaj przez JavaScript -->
                                             </div>
                                         </div>
-
                                         <input type="checkbox" id="armrest-toggle" checked> Show armrests
-
-
                                     </div>
                                 </div>
                             </form>
-                            <div class="col-span-3 flex justify-center pt-5 w-full"><a href="configurator.html"><button type="reset" class="bg-white px-4 py-1 rounded shadow text-black-500">Reset Settings</button></a>
+                            <div class="col-span-3 flex justify-center pt-5 w-full">
+                                <a href="configurator.html"><button type="reset" class="bg-white px-4 py-1 rounded shadow text-black-500">Reset Settings</button></a>
                             </div>
                             <p class="pt-8 px-8 text-justify text-white">Dear customers,
                                 We would like to inform you that the seat configurator available on our website is intended for visual purposes only.&nbsp;Please note that the images provided are for reference only and may not accurately depict the final product.&nbsp;While we strive to provide the most accurate representation possible, there may be slight variations in color, texture, and overall appearance between the online configurator and the actual product.&nbsp;We encourage you to use the configurator as a guide to help you visualize the potential appearance of your desired seat options.&nbsp;However, we highly recommend that you refer to the photo gallery section of our website for actual photographs of our seats installed in specific vehicle models.&nbsp;Thank you for choosing our products, and we hope this information helps you make an informed decision.</p>
@@ -903,8 +903,6 @@
         }
     });
 </script>
-
-
 <script>
     function toggleArmrests(visible) {
     api.getMaterialList(function(err, materials) {
@@ -933,5 +931,29 @@ document.getElementById('armrest-toggle').addEventListener('change', function() 
 });
 
 
+
+</script>
+
+<script>
+
+document.querySelector("#armrestSelect").addEventListener("change", function(e) {
+    api.getMaterialList(function(err, materials) {
+        if (err) {
+            console.error('Error getting materials:', err);
+            return;
+        }
+        var armrestMaterial = materials.find(function(material) {
+            return material.name === 'Armrest';
+        });
+        if (armrestMaterial) {
+            if (e.target.value === 'hide') {
+                armrestMaterial.visible = false;
+            } else {
+                armrestMaterial.visible = true;
+            }
+            api.setMaterial(armrestMaterial);
+        }
+    });
+});
 
 </script>
