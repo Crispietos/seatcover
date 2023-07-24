@@ -293,6 +293,10 @@
                                                 <!-- Obrazy kolorów będą dodawane tutaj przez JavaScript -->
                                             </div>
                                         </div>
+
+                                        <input type="checkbox" id="armrest-toggle" checked> Show armrests
+
+
                                     </div>
                                 </div>
                             </form>
@@ -898,4 +902,36 @@
             console.error('No texture URL found for selected option:', selectedOption);
         }
     });
+</script>
+
+
+<script>
+    function toggleArmrests(visible) {
+    api.getMaterialList(function(err, materials) {
+        if (err) {
+            console.error('Error getting materials:', err);
+            return;
+        }
+
+        // Znajdź materiały podłokietników
+        var armrestMaterials = materials.filter(function(material) {
+            return material.name === 'Armrests'; // Zastąp 'Armrest' nazwą materiału podłokietników
+        });
+
+        // Ustaw widoczność dla każdego materiału podłokietnika
+        armrestMaterials.forEach(function(material) {
+            material.visible = visible;
+            api.setMaterial(material, function() {
+                console.log('Armrest visibility set to ' + visible);
+            });
+        });
+    });
+}
+
+document.getElementById('armrest-toggle').addEventListener('change', function() {
+    toggleArmrests(this.checked);
+});
+
+
+
 </script>
