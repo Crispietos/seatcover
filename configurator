@@ -40,7 +40,11 @@
                 <button class="hover:text-gray-800 px-3 py-2 rounded text-white lg:hidden" data-name="nav-toggler" data-pg-ia='{"l":[{"name":"NabMenuToggler","trg":"click","a":{"l":[{"t":"^nav|[data-name=nav-menu]","l":[{"t":"set","p":0,"d":0,"l":{"class.remove":"hidden"}}]},{"t":"#gt# span:nth-of-type(1)","l":[{"t":"tween","p":0,"d":0.2,"l":{"rotationZ":45,"yPercent":300}}]},{"t":"#gt# span:nth-of-type(2)","l":[{"t":"tween","p":0,"d":0.2,"l":{"autoAlpha":0}}]},{"t":"#gt# span:nth-of-type(3)","l":[{"t":"tween","p":0,"d":0.2,"l":{"rotationZ":-45,"yPercent":-300}}]}]},"pdef":"true","trev":"true"}]}'> <span class="block border-b-2 border-current my-1 w-6"></span> <span class="block border-b-2 border-current my-1 w-6"></span> <span class="block border-b-2 border-current my-1 w-6"></span> 
                 </button>                 
                 <div class="hidden space-y-2 text-sm w-full lg:flex lg:items-center lg:space-x-4 lg:space-y-0 lg:w-auto" data-name="nav-menu"> 
-                    <div class="flex flex-col lg:flex-row"> <a href="index.html" class="font-light hover:text-gray-300 lg:px-4 px-0 py-2 text-white uppercase">Home</a> <a href="#" class="font-light lg:px-4 uppercase py-2 px-0  text-white hover:text-gray-300">PRODUCTS</a><a href="configurator.html" class="font-light lg:px-4 uppercase py-2 px-0  text-white hover:text-gray-300">CONFIGURATOR</a><a href="aboutus.html" class="font-light lg:px-4 uppercase py-2 px-0  text-white hover:text-gray-300">ABOUT US</a> <a href="gallery.html" class="font-light lg:px-4 uppercase py-2 px-0  text-white hover:text-gray-300">GALLERY</a> <a href="colors.html" class="font-light lg:px-4 uppercase py-2 px-0  text-white hover:text-gray-300">COLORS</a><a href="models.html" class="font-light lg:px-4 uppercase py-2 px-0  text-white hover:text-gray-300">Models</a><a href="customseatcovers.html" class="font-light lg:px-4 uppercase py-2 px-0  text-white hover:text-gray-300">custom seat covers</a> <a href="contact.html" class="font-light lg:px-4 uppercase py-2 px-0  text-white hover:text-gray-300">Contact</a>
+                    <div class="flex flex-col lg:flex-row"> <a href="index.html" class="font-light hover:text-gray-300 lg:px-4 px-0 py-2 text-white uppercase">Home</a> <a href="#" class="font-light lg:px-4 uppercase py-2 px-0  text-white hover:text-gray-300">PRODUCTS</a>
+                        <a href="configurator.html" class="font-light lg:px-4 uppercase py-2 px-0  text-white hover:text-gray-300">CONFIGURATOR</a>
+                        <a href="aboutus.html" class="font-light lg:px-4 uppercase py-2 px-0  text-white hover:text-gray-300">ABOUT US</a> <a href="gallery.html" class="font-light lg:px-4 uppercase py-2 px-0  text-white hover:text-gray-300">GALLERY</a> <a href="colors.html" class="font-light lg:px-4 uppercase py-2 px-0  text-white hover:text-gray-300">COLORS</a>
+                        <a href="models.html" class="font-light lg:px-4 uppercase py-2 px-0  text-white hover:text-gray-300">Models</a>
+                        <a href="customseatcovers.html" class="font-light lg:px-4 uppercase py-2 px-0  text-white hover:text-gray-300">custom seat covers</a> <a href="contact.html" class="font-light lg:px-4 uppercase py-2 px-0  text-white hover:text-gray-300">Contact</a>
                     </div>                     
                 </div>                 
             </nav>             
@@ -290,17 +294,11 @@
                                         <div class="gap-1 grid grid-cols-1 pt-5">
                                             <button id="showGalleryButton" class="bg-white px-4 py-1 rounded shadow text-black-500">Double Trim Selection</button>
                                             <p id="selectedColorDisplay"></p>
-                                            <div class="col-span-3 flex flex-wrap justify-center hidden" id="colorGallery">
-                                                <input type="hidden" id="stitchingColor" name="stitchingColor">
-                                                <!-- Obrazy kolorów będą dodawane tutaj przez JavaScript -->
-                                            </div>
                                         </div>
-                                        <input type="checkbox" id="armrest-toggle" checked> Show armrests
                                     </div>
                                 </div>
                             </form>
-                            <div class="col-span-3 flex justify-center pt-5 w-full">
-                                <a href="configurator.html"><button type="reset" class="bg-white px-4 py-1 rounded shadow text-black-500">Reset Settings</button></a>
+                            <div class="col-span-3 flex justify-center pt-5 w-full"><a href="configurator.html"><button type="reset" class="bg-white px-4 py-1 rounded shadow text-black-500">Reset Settings</button></a>
                             </div>
                             <p class="pt-8 px-8 text-justify text-white">Dear customers,
                                 We would like to inform you that the seat configurator available on our website is intended for visual purposes only.&nbsp;Please note that the images provided are for reference only and may not accurately depict the final product.&nbsp;While we strive to provide the most accurate representation possible, there may be slight variations in color, texture, and overall appearance between the online configurator and the actual product.&nbsp;We encourage you to use the configurator as a guide to help you visualize the potential appearance of your desired seat options.&nbsp;However, we highly recommend that you refer to the photo gallery section of our website for actual photographs of our seats installed in specific vehicle models.&nbsp;Thank you for choosing our products, and we hope this information helps you make an informed decision.</p>
@@ -386,9 +384,6 @@
 <script src="modelSwitcher.js"></script>
 <script>
 
-
-
-
                     function hexToRgb(hex) {
                         var result = /^#?([a-f\d]{2})([a-f\d]{2})([a-f\d]{2})$/i.exec(hex);
                         return result ? [
@@ -409,17 +404,12 @@
                         }
                         return v;
                     }
-
-
-
-                    // Twój unikalny identyfikator modelu na Sketchfab
+                    
                     var uid = '71317db32c9f485e9a679ba9d8c31af2';
 
-                    // Inicjalizacja Sketchfab Viewer
                     var iframe = document.getElementById('api-frame');
                     var client = new window.Sketchfab('1.12.1', iframe);
 
-                    // Zmienna do przechowywania API
                     var api;
 
                     // Funkcja do zmiany koloru
@@ -504,8 +494,6 @@
             "silver": "#959090",
             "wine": "#682F30"
         };
-
-        // Kod jest identyczny jak w oryginale aż do punktu 4
 
          // 4. Interakcja z użytkownikiem
          document.getElementById('element-color').addEventListener('change', function() {
@@ -913,8 +901,9 @@
 
         // Znajdź materiały podłokietników
         var armrestMaterials = materials.filter(function(material) {
-            return material.name === 'Armrests'; // Zastąp 'Armrest' nazwą materiału podłokietników
-        });
+    return material.name === 'Armrest'; // Zastąp 'Armrest' nazwą materiału podłokietników
+});
+
 
         // Ustaw widoczność dla każdego materiału podłokietnika
         armrestMaterials.forEach(function(material) {
@@ -933,27 +922,34 @@ document.getElementById('armrest-toggle').addEventListener('change', function() 
 
 
 </script>
-
 <script>
 
-document.querySelector("#armrestSelect").addEventListener("change", function(e) {
+function toggleArmrests(visible) {
     api.getMaterialList(function(err, materials) {
         if (err) {
             console.error('Error getting materials:', err);
             return;
         }
-        var armrestMaterial = materials.find(function(material) {
+
+        // Znajdź materiały podłokietników
+        var armrestMaterials = materials.filter(function(material) {
             return material.name === 'Armrest';
         });
-        if (armrestMaterial) {
-            if (e.target.value === 'hide') {
-                armrestMaterial.visible = false;
-            } else {
-                armrestMaterial.visible = true;
-            }
-            api.setMaterial(armrestMaterial);
-        }
+
+        // Ustaw widoczność dla każdego materiału podłokietnika
+        armrestMaterials.forEach(function(material) {
+            material.visible = visible;
+            api.setMaterial(material, function() {
+                console.log('Armrest visibility set to ' + visible);
+            });
+        });
     });
+}
+
+document.getElementById('armrestSelect').addEventListener('change', function() {
+    toggleArmrests(this.value === 'show');
 });
+
+
 
 </script>
